@@ -1,0 +1,121 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*font-family: 'Ubuntu', sans-serif;*/
+}
+header nav ul li{ 
+  display: inline;
+  text-decoration: none;
+  margin-left: 16px;
+  }
+  header nav li a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  header nav li a:hover{
+    background-color: #7a7369a3;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #sobre-mim .container img{
+    width:350px;
+    height: 350px;
+    object-fit: contain;
+  }
+  header{
+    background-color: #b5a99965;
+    padding: 16PX;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  header .container, #sobre-mim .container, #curriculo .container, #projetos .container, .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #sobre-mim .container h2{
+    font-size: 3em;
+  }
+  #sobre-mim .container h2,h3, p{
+  width: 600PX;
+  }
+  .container {
+    padding: 16px 16px;
+  }
+  .container p, h3{
+    line-height: 2em;
+    text-align: justify;
+    list-style: circle;
+    font-family: 'Ubuntu', sans-serif;
+      }
+  .container  li{
+    text-align: justify;
+    list-style: circle;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2em;
+  }
+
+  .container h3{
+    padding: 30px auto;
+    font-size: 1.5em;
+    font-weight:bold ;
+  }
+  #curriculo .container h1{margin-top: 0;
+
+  }
+  .container h1, #projetos h1{
+    font-size: 2.5em;
+    padding: 16px 16px;}
+
+    form{
+      background-color: #b5a99965;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      
+    }
+    hr{
+      margin: 50px 0;
+    }
+    form input, form label, button, textarea{
+      display: block;
+      width: 350px;
+      margin-bottom: 5px;
+      padding: 8px;
+      border-radius: 6px;
+      
+    }
+    
+    form textarea {
+      height: 180px;
+      resize: none;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    form button:hover{
+      background-color: #7a7369a3;
+    }
+    form button{
+      cursor: pointer;
+    }
+
+
+  footer .container img{
+      width: 24px;
+      height: 24px;
+      margin: 0;
+    }
+  
+    footer{
+      max-width: 100%;
+      background-color: #b5a99965;
+      
+    }
+    footer .container a{
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
